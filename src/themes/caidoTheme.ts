@@ -1,4 +1,4 @@
-import { ThemeOptions } from "@mui/material/styles";
+import { createTheme, ThemeOptions } from "@mui/material/styles";
 
 const themeOptions: ThemeOptions = {
   palette: {
@@ -37,4 +37,5 @@ const themeOptions: ThemeOptions = {
   },
 };
 
-export { themeOptions };
+const caidoTheme = createTheme(themeOptions);
+export { caidoTheme };
