@@ -22,6 +22,13 @@ const themeOptions: ThemeOptions = {
         },
       },
     },
+    MuiTableCell: {
+      styleOverrides: {
+        root: {
+          background: "var(--c-gray-800)",
+        },
+      },
+    },
     MuiButton: {
       variants: [
         {
