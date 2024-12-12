@@ -15,6 +15,27 @@ const themeOptions: ThemeOptions = {
     },
   },
   components: {
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          background: "var(--c-bg-subtle)",
+        },
+      },
+    },
+    MuiStack: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "var(--c-bg-subtle)",
+        },
+      },
+    },
+    MuiTableContainer: {
+      styleOverrides: {
+        root: {
+          background: "var(--c-bg-subtle)",
+        },
+      },
+    },
     MuiTableRow: {
       styleOverrides: {
         root: {
@@ -22,10 +43,10 @@ const themeOptions: ThemeOptions = {
         },
       },
     },
-    MuiTableCell: {
+    MuiTabs: {
       styleOverrides: {
         root: {
-          background: "var(--c-gray-800)",
+          background: "var(--c-bg-subtle)",
         },
       },
     },
