@@ -1,6 +1,6 @@
 {
   "name": "caido-material-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Material UI themes/components for Caido plugins",
   "main": "src/index.ts",
   "dependencies": {

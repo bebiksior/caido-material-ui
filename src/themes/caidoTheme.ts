@@ -25,7 +25,7 @@ const themeOptions: ThemeOptions = {
     MuiStack: {
       styleOverrides: {
         root: {
-          backgroundColor: "var(--c-bg-subtle)",
+          backgroundColor: "transparent",
         },
       },
     },
@@ -33,6 +33,13 @@ const themeOptions: ThemeOptions = {
       styleOverrides: {
         root: {
           background: "var(--c-bg-subtle)",
+        },
+      },
+    },
+    MuiMenu: {
+      styleOverrides: {
+        paper: {
+          background: "var(--c-bg-default)",
         },
       },
     },
