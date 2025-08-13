@@ -3,6 +3,9 @@
 
 Caido theme and components built on top of Material-UI and Allotment.
 
+> **Note**: We recommend using Vue for new Caido plugins. This package is no longer actively maintained.
+
+
 ## Installation
 
 ```bash
